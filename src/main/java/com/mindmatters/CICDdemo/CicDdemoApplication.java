@@ -30,7 +30,7 @@ public class CicDdemoApplication {
 			return "Hello " + name + "!";
 		}
 
-		@Scheduled(cron = "0 */1 * * * ?")
+		//@Scheduled(cron = "0 */1 * * * ?")
 		public void scheduled(){
 			//SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 			//Date date = new Date();
